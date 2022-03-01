@@ -19,7 +19,7 @@ return {
       END$$;
     ]],
   },
-  postgres = {
+  mysql = {
     up = [[
       CREATE TABLE IF NOT EXISTS `sessions` (
         `id` VARCHAR(36) NOT NULL,
