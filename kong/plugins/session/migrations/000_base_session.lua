@@ -32,8 +32,7 @@ return {
         UNIQUE INDEX `sessions_session_id_key` (`session_id`(255) ASC)
       );
 
-      DROP INDEX IF EXISTS session_sessions_expires_idx;
-      CREATE INDEX `session_sessions_expires_idx` ON `sessions` (`expires`);
+      CREATE INDEX session_sessions_expires_idx ON sessions (expires);
     ]],
   },
   cassandra = {
