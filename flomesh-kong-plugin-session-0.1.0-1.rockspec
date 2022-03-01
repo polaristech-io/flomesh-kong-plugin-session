@@ -1,12 +1,12 @@
 package = "flomesh-kong-plugin-session"
 
-version = "2.1.2-1"
+version = "0.1.0-1"
 
 supported_platforms = {"linux", "macosx"}
 
 source = {
   url = "git://github.com/polaristech-io/flomesh-kong-plugin-session",
-  tag = "2.1.2"
+  tag = "0.1.0"
 }
 
 description = {
